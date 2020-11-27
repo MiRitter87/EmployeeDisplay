@@ -39,25 +39,25 @@
 						<f:formElements>
 							<f:FormElement label="Personalnummer">
 								<f:fields>
-									<Text id="employeeId" text="{SupplierName}" />
+									<Text id="employeeId" text="{/modelData/data/id}" />
 								</f:fields>
 							</f:FormElement>
 
 							<f:FormElement label="Vorname">
 								<f:fields>
-									<Text id="firstName" text="{SupplierName}" />
+									<Text id="firstName" text="{/modelData/data/firstName}" />
 								</f:fields>
 							</f:FormElement>
 							
 							<f:FormElement label="Nachname">
 								<f:fields>
-									<Text id="lastName" text="{SupplierName}" />
+									<Text id="lastName" text="{/modelData/data/lastName}" />
 								</f:fields>
 							</f:FormElement>
 							
 							<f:FormElement label="Geschlecht">
 								<f:fields>
-									<Text id="gender" text="{SupplierName}" />
+									<Text id="gender" text="{/modelData/data/gender}" />
 								</f:fields>
 							</f:FormElement>
 						</f:formElements>
