@@ -10,7 +10,7 @@
 		<Page title="Anzeige von Mitarbeiterdaten">
 			<Label text="Personalnummer"/>
 			<Input id="queryEmployeeId" maxLength="4"/>
-			<Button icon="sap-icon://sap-ui5" text="Daten laden" press=".onPress" type="Emphasized"	class="sapUiSmallMargin"/>
+			<Button icon="sap-icon://accept" text="Daten laden" press=".onPress" type="Emphasized"	class="sapUiSmallMargin"/>
 			
 			<f:Form id="employeeForm" editable="false">
 				<f:title>
